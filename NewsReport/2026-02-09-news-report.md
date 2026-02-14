@@ -1,269 +1,269 @@
 # Daily News Report（2026-02-09）
 
 > 本日筛选自 4 个信息源，共收录 20 条高质量内容
-> 生成方式: Cursor 串行执行 (WebFetch) | 版本: v3.0
+> 生成耗时: ~3 分钟 | 版本: v3.0
 
 ---
 
-## 1. AI makes the easy part easier and the hard part harder
+## 1. GPT-5.2 derives a new result in theoretical physics
 
-- **摘要**：文章探讨 AI 如何让简单任务更简单、困难任务相对更难，讨论自动化对工作与决策的深层影响。
+- **摘要**：OpenAI 宣布 GPT-5.2 在理论物理学中推导出新结果，展示大模型在严肃科学推理上的能力，引发学界对 AI 参与基础研究的讨论。
 - **要点**：
-  1. 常规工作被 AI 加速，差距缩小
-  2. 真正困难的问题更依赖人类判断与创意
-  3. 对个人与组织的策略含义
-- **来源**：[blundergoat.com](https://www.blundergoat.com/articles/ai-makes-the-easy-part-easier-and-the-hard-part-harder)
-- **关键词**：`AI` `生产力` `决策` `人机协作`
+  1. 大模型首次在理论物理中产出新结论
+  2. 体现推理与形式化能力
+  3. 引发对 AI 与科学发现关系的讨论
+- **来源**：[openai.com](https://openai.com/index/new-result-theoretical-physics/)
+- **关键词**：`GPT-5.2` `理论物理` `AI科研` `科学推理`
 - **评分**：⭐⭐⭐⭐⭐ (5/5)
 
 ---
 
-## 2. GitHub Agentic Workflows
+## 2. DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing
 
-- **摘要**：GitHub 官方推出的 Agentic Workflows 文档与能力，将 AI 代理集成到开发工作流中。
+- **摘要**：5B 参数轻量统一多模态模型，通过 Stacked Channel Bridging、分阶段训练与 MR-GRPO 强化学习，在图像生成与编辑上达到或超越更大规模模型表现。
 - **要点**：
-  1. 官方支持的代理式工作流
-  2. 与仓库、PR、CI 等深度集成
-  3. 为开发者提供可复用的代理模式
-- **来源**：[github.github.io/gh-aw](https://github.github.io/gh-aw/)
-- **关键词**：`GitHub` `AI Agent` `工作流` `开发效率`
+  1. 5B 轻量模型，训练与部署成本低
+  2. SCB 框架 + think tokens 提供推理式引导
+  3. 在 WISE、UniREditBench 等基准上领先
+- **来源**：[huggingface.co/papers](https://huggingface.co/papers)
+- **关键词**：`多模态` `图像生成` `图像编辑` `轻量模型` `MR-GRPO`
 - **评分**：⭐⭐⭐⭐⭐ (5/5)
 
 ---
 
-## 3. On the Entropy Dynamics in Reinforcement Fine-Tuning of Large Language Models
+## 3. Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation
 
-- **摘要**：研究 RL 微调 LLM 过程中的熵动态，对稳定训练与策略优化有直接指导意义。
+- **摘要**：将 On-Policy Distillation 推广为 G-OPD 框架，引入灵活参考模型与奖励缩放；ExOPD（奖励外推）在多组师生规模与数学/代码任务上稳定优于标准 OPD，学生可超越教师边界。
 - **要点**：
-  1. 熵在 RL 微调中的变化规律
-  2. 与训练稳定性、探索-利用的关联
-  3. 对 RLHF/DPO 等方法的启示
-- **来源**：[huggingface.co/papers/2602.03392](https://huggingface.co/papers/2602.03392)
-- **关键词**：`LLM` `强化学习` `微调` `熵` `RLHF`
+  1. OPD 可视为稠密 KL 约束 RL 的特例
+  2. 奖励外推（ExOPD）一致优于标准 OPD
+  3. 强到弱蒸馏时用教师 RL 前基座做奖励修正可进一步提升
+- **来源**：[huggingface.co/papers](https://huggingface.co/papers)
+- **关键词**：`知识蒸馏` `On-Policy` `奖励外推` `G-OPD` `ExOPD`
 - **评分**：⭐⭐⭐⭐⭐ (5/5)
 
 ---
 
-## 4. Claude's C Compiler vs. GCC
+## 4. OpenAI has deleted the word 'safely' from its mission
 
-- **摘要**：对比 Claude 编写的 C 编译器与 GCC 在行为、性能与标准符合性上的差异，展示 AI 生成系统软件的边界。
+- **摘要**：OpenAI 从使命陈述中删除「safely」一词，新架构引发 AI 究竟服务社会还是股东之争，反映公司治理与安全承诺的转变。
 - **要点**：
-  1. AI 编写编译器的可行性
-  2. 与成熟编译器对比的维度
-  3. 对工具链与教育场景的启示
-- **来源**：[harshanu.space](https://harshanu.space/en/tech/ccc-vs-gcc/)
-- **关键词**：`编译器` `GCC` `Claude` `系统软件` `AI 编程`
-- **评分**：⭐⭐⭐⭐⭐ (5/5)
-
----
-
-## 5. OdysseyArena: Benchmarking LLMs For Long-Horizon, Active and Inductive Interactions
-
-- **摘要**：提出 OdysseyArena 基准，评估大模型在长时程、主动与归纳式交互中的表现，推动具身与多步推理能力评测。
-- **要点**：
-  1. 长时程与主动交互的评测需求
-  2. 归纳推理与泛化能力
-  3. 为下一代 Agent 评测提供标准
-- **来源**：[huggingface.co/papers/2602.05843](https://huggingface.co/papers/2602.05843)
-- **关键词**：`基准` `LLM` `长时程` `Agent` `推理`
-- **评分**：⭐⭐⭐⭐⭐ (5/5)
-
----
-
-## 6. Management as AI superpower (One Useful Thing)
-
-- **摘要**：Ethan Mollick 探讨在智能体时代，管理如何成为人与 AI 协作的「超级能力」。
-- **要点**：
-  1. 管理从管人转向协调人机
-  2. 提示、评估与迭代成为核心技能
-  3. 在 agent 世界中保持判断力
-- **来源**：[oneusefulthing.org](https://www.oneusefulthing.org/p/management-as-ai-superpower)
-- **关键词**：`AI` `管理` `智能体` `人机协作` `Ethan Mollick`
-- **评分**：⭐⭐⭐⭐⭐ (5/5)
-
----
-
-## 7. Vouch – Configuration management for dev
-
-- **摘要**：Mitchell Hashimoto 开源项目 Vouch，为开发环境提供声明式配置管理，提升一致性与可复现性。
-- **要点**：
-  1. 声明式开发环境配置
-  2. 跨团队、跨机器一致性
-  3. 来自 Terraform/Vagrant 作者的设计理念
-- **来源**：[github.com/mitchellh/vouch](https://github.com/mitchellh/vouch)
-- **关键词**：`配置管理` `开发环境` `开源` `Mitchell Hashimoto`
-- **评分**：⭐⭐⭐⭐⭐ (5/5)
-
----
-
-## 8. Roundcube Webmail: SVG feImage bypasses image blocking to track email opens
-
-- **摘要**：安全研究披露 Roundcube 中 SVG feImage 可绕过图片拦截实现邮件打开追踪，影响隐私与安全策略。
-- **要点**：
-  1. 邮件客户端隐私绕过
-  2. SVG 与 feImage 的滥用方式
-  3. 对邮件安全与反追踪的启示
-- **来源**：[nullcathedral.com](https://nullcathedral.com/posts/2026-02-08-roundcube-svg-feimage-remote-image-bypass/)
-- **关键词**：`安全` `Roundcube` `邮件` `隐私` `SVG`
+  1. 使命表述从「安全」转向更开放目标
+  2. 新架构被视为对「为谁服务」的测试
+  3. 引发对 AI 公司责任与对齐的讨论
+- **来源**：[theconversation.com](https://theconversation.com/openai-has-deleted-the-word-safely-from-its-mission-and-its-new-structure-is-a-test-for-whether-ai-serves-society-or-shareholders-274467)
+- **关键词**：`OpenAI` `使命` `治理` `AI安全` `公司治理`
 - **评分**：⭐⭐⭐⭐ (4/5)
 
 ---
 
-## 9. Running Your Own AS: BGP on FreeBSD with FRR, GRE Tunnels, and Policy Routing
+## 5. Building a TUI is easy now
 
-- **摘要**：在 FreeBSD 上使用 FRR 运行 BGP、GRE 隧道与策略路由，实现自建 AS 的完整实践指南。
+- **摘要**：介绍现代 TUI（终端用户界面）开发已变得简单，通过当前工具链与库可快速构建跨平台终端应用，提升开发者效率。
 - **要点**：
-  1. 自建 AS 与 BGP 的实操
-  2. FRR + FreeBSD 的配置与排错
-  3. GRE 与策略路由的集成
-- **来源**：[blog.hofstede.it](https://blog.hofstede.it/running-your-own-as-bgp-on-freebsd-with-frr-gre-tunnels-and-policy-routing/)
-- **关键词**：`BGP` `FreeBSD` `FRR` `网络` `自建 AS`
-- **评分**：⭐⭐⭐⭐⭐ (5/5)
-
----
-
-## 10. More Mac malware from Google search
-
-- **摘要**：分析通过 Google 搜索分发的 Mac 恶意软件新样本，提醒依赖搜索结果时的安全风险。
-- **要点**：
-  1. 搜索引擎作为恶意软件分发渠道
-  2. Mac 恶意软件演进与检测
-  3. 用户与企业的防护建议
-- **来源**：[eclecticlight.co](https://eclecticlight.co/2026/01/30/more-malware-from-google-search/)
-- **关键词**：`安全` `Mac` `恶意软件` `Google` `供应链`
+  1. 现代 TUI 工具链成熟
+  2. 跨平台与体验更好
+  3. 适合 CLI 与运维工具
+- **来源**：[hatchet.run](https://hatchet.run/blog/tuis-are-easy-now)
+- **关键词**：`TUI` `终端界面` `开发效率` `CLI`
 - **评分**：⭐⭐⭐⭐ (4/5)
 
 ---
 
-## 11. MSign: Stable Rank Restoration for LLM Training (Microsoft)
+## 6. MOSS-Audio-Tokenizer: Scaling Audio Tokenizers for Future Audio Foundation Models
 
-- **摘要**：微软提出 MSign 优化器，通过稳定秩恢复缓解大模型训练中的不稳定性，提升收敛与泛化。
+- **摘要**：纯 Transformer 的因果音频分词器 CAT，端到端联合优化编码器、量化器与解码器；MOSS-Audio-Tokenizer 1.6B 在 300 万小时音频上预训练，在语音/声音/音乐上优于现有编解码器，并支持纯自回归 TTS 与竞争级 ASR。
 - **要点**：
-  1. 训练不稳定与秩塌缩的关系
-  2. 稳定秩恢复的优化策略
-  3. 在 LLM 规模上的有效性
-- **来源**：[huggingface.co/papers/2602.01734](https://huggingface.co/papers/2602.01734)
-- **关键词**：`LLM` `训练` `优化器` `Microsoft` `稳定性`
+  1. 纯 Transformer、端到端学习的音频 tokenizer
+  2. 1.6B 参数，多领域高保真重建
+  3. 首个纯自回归 TTS 超越非自回归与级联系统
+- **来源**：[huggingface.co/papers](https://huggingface.co/papers)
+- **关键词**：`音频tokenizer` `CAT` `TTS` `ASR` `端到端`
 - **评分**：⭐⭐⭐⭐⭐ (5/5)
 
 ---
 
-## 12. Experts Have World Models. LLMs Have Word Models (Latent Space)
+## 7. GigaBrain-0.5M*: a VLA That Learns From World Model-Based Reinforcement Learning
 
-- **摘要**：讨论专家依赖世界模型而 LLM 更依赖词级统计，对对抗式推理与鲁棒性的含义。
+- **摘要**：基于世界模型的强化学习（RAMP）训练 VLA，在 GigaBrain-0.5 上集成后，在 Laundry Folding、Box Packing、Espresso 等任务上较 RECAP 提升约 30%，并展示可靠的长时程执行与真实机器人部署。
 - **要点**：
-  1. 世界模型 vs 词模型的认识论差异
-  2. 对抗样本与推理失败的联系
-  3. 对 AI 安全与对齐的启示
-- **来源**：[latent.space](https://www.latent.space/p/adversarial-reasoning)
-- **关键词**：`LLM` `推理` `世界模型` `对抗` `AI 安全`
+  1. 视频世界模型提供时空推理与未来预测
+  2. RAMP 实现跨任务适应与长时程执行
+  3. RoboChallenge 基准领先，有实际部署验证
+- **来源**：[huggingface.co/papers](https://huggingface.co/papers) / [gigabrain05m.github.io](https://gigabrain05m.github.io/)
+- **关键词**：`VLA` `世界模型` `强化学习` `机器人` `RAMP`
 - **评分**：⭐⭐⭐⭐⭐ (5/5)
 
 ---
 
-## 13. Nobody knows how the whole system works
+## 8. Font Rendering from First Principles
 
-- **摘要**：探讨复杂系统中无人能完整理解全系统的现实，以及如何在这种前提下做设计与运维。
+- **摘要**：从第一性原理讲解字体渲染：从字形、轮廓、栅格化到抗锯齿与 hinting，帮助理解文本渲染管线与质量取舍。
 - **要点**：
-  1. 复杂系统的认知边界
-  2. 局部理解与全局行为的张力
-  3. 对架构与组织设计的启示
-- **来源**：[surfingcomplexity.blog](https://surfingcomplexity.blog/2026/02/08/nobody-knows-how-the-whole-system-works/)
-- **关键词**：`系统设计` `复杂度` `认知` `运维`
+  1. 覆盖从轮廓到像素的完整管线
+  2. 适合图形/引擎开发者
+  3. 有助于优化字体与 UI 渲染
+- **来源**：[mccloskeybr.com](https://mccloskeybr.com/articles/font_rendering.html)
+- **关键词**：`字体渲染` `图形` `栅格化` `第一性原理`
 - **评分**：⭐⭐⭐⭐ (4/5)
 
 ---
 
-## 14. Apple XNU: Clutch Scheduler
+## 9. gRPC: From service definition to wire format
 
-- **摘要**：Apple 开源 XNU 中 Clutch 调度器的文档与设计，揭示 macOS/iOS 调度策略的演进。
+- **摘要**：深入解析 gRPC 从服务定义到线格式的完整流程，包括 IDL、编解码与 HTTP/2，适合做分布式系统与 RPC 的工程师。
 - **要点**：
-  1. Clutch 调度器在 XNU 中的角色
-  2. 与性能、能效、公平性的权衡
-  3. 对系统与内核开发者的参考价值
-- **来源**：[github.com/apple-oss-distributions/xnu](https://github.com/apple-oss-distributions/xnu/blob/main/doc/scheduler/sched_clutch_edge.md)
-- **关键词**：`XNU` `调度器` `Apple` `内核` `开源`
-- **评分**：⭐⭐⭐⭐⭐ (5/5)
-
----
-
-## 15. Claude Code and What Comes Next (One Useful Thing)
-
-- **摘要**：Ethan Mollick 分析 Claude Code 等 AI 编程工具的能力边界与下一步演进方向。
-- **要点**：
-  1. 当前 AI 编程工具的实际能力
-  2. 对开发流程与技能结构的影响
-  3. 未来 1–2 年的可能方向
-- **来源**：[oneusefulthing.org](https://www.oneusefulthing.org/p/claude-code-and-what-comes-next)
-- **关键词**：`AI 编程` `Claude` `开发工具` `Ethan Mollick`
-- **评分**：⭐⭐⭐⭐⭐ (5/5)
-
----
-
-## 16. Show HN: Slack CLI for Agents
-
-- **摘要**：为 AI Agent 提供 Slack CLI 集成，便于在对话与工作流中调用 Slack。
-- **要点**：
-  1. Agent 与 Slack 的标准化接口
-  2. 支持自动化与脚本化协作
-  3. 开源实现便于扩展
-- **来源**：[github.com/stablyai/agent-slack](https://github.com/stablyai/agent-slack)
-- **关键词**：`Slack` `AI Agent` `CLI` `开源`
+  1. 服务定义到线格式的完整链路
+  2. 结合协议与实现细节
+  3. 便于调试与性能优化
+- **来源**：[kreya.app](https://kreya.app/blog/grpc-deep-dive/)
+- **关键词**：`gRPC` `RPC` `协议` `分布式`
 - **评分**：⭐⭐⭐⭐ (4/5)
 
 ---
 
-## 17. Baichuan-M3: Modeling Clinical Inquiry for Reliable Medical Decision-Making
+## 10. Faster Than Dijkstra?
 
-- **摘要**：百川提出 Baichuan-M3，针对临床问询建模以支持更可靠的医疗决策，属于垂直领域 LLM 应用。
+- **摘要**：探讨在特定图与约束下是否存在比 Dijkstra 更快的路径算法，结合系统与网络场景分析算法选择与实现权衡。
 - **要点**：
-  1. 临床问询与决策的建模方式
-  2. 可靠性、可解释性与安全约束
-  3. 医疗 AI 的落地考量
-- **来源**：[huggingface.co/papers/2602.06570](https://huggingface.co/papers/2602.06570)
-- **关键词**：`医疗AI` `LLM` `百川` `决策支持` `临床`
+  1. 算法选择依赖图结构与约束
+  2. 系统/网络场景下的实践考量
+  3. 理论边界与工程取舍
+- **来源**：[systemsapproach.org](https://systemsapproach.org/2026/02/09/faster-than-dijkstra/)
+- **关键词**：`图算法` `最短路径` `Dijkstra` `系统设计`
 - **评分**：⭐⭐⭐⭐ (4/5)
 
 ---
 
-## 18. DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos (NVIDIA)
+## 11. Data Engineering Book – An open source, community-driven guide
 
-- **摘要**：NVIDIA 从大规模人类视频中训练通用机器人世界模型 DreamDojo，推动具身智能与仿真。
+- **摘要**：开源、社区驱动的数据工程手册，覆盖现代数据流水线、存储与计算，适合数据工程师系统学习与参考。
 - **要点**：
-  1. 从人类视频到机器人策略的迁移
-  2. 通用世界模型的规模与数据需求
-  3. 对机器人学习与仿真的影响
-- **来源**：[huggingface.co/papers/2602.06949](https://huggingface.co/papers/2602.06949)
-- **关键词**：`机器人` `世界模型` `NVIDIA` `具身智能` `视频`
-- **评分**：⭐⭐⭐⭐⭐ (5/5)
-
----
-
-## 19. Show HN: Horizons – OSS agent execution engine
-
-- **摘要**：Horizons 开源项目提供 Agent 执行引擎，支持多步骤、可观测的 Agent 工作流。
-- **要点**：
-  1. 可复用的 Agent 执行与编排
-  2. 开源、可自托管
-  3. 面向开发者与团队集成
-- **来源**：[github.com/synth-laboratories/Horizons](https://github.com/synth-laboratories/Horizons)
-- **关键词**：`Agent` `执行引擎` `开源` `工作流`
+  1. 开源、社区维护
+  2. 覆盖数据工程核心主题
+  3. 持续更新，贴近实践
+- **来源**：[github.com/datascale-ai/data_engineering_book](https://github.com/datascale-ai/data_engineering_book/blob/main/README_en.md)
+- **关键词**：`数据工程` `开源` `手册` `社区`
 - **评分**：⭐⭐⭐⭐ (4/5)
 
 ---
 
-## 20. Reverse Engineering the PROM for the SGI O2
+## 12. Show HN: Skill that lets Claude Code/Codex spin up VMs and GPUs
 
-- **摘要**：对 SGI O2 的 PROM 进行逆向工程，保留与分享复古硬件与固件的知识。
+- **摘要**：通过 Skill 让 Claude Code / Codex 等 Agent 按需创建虚拟机与 GPU 环境，将计算资源与 AI 工作流结合，提升开发与实验效率。
 - **要点**：
-  1. 逆向方法论与工具链
-  2. SGI O2 启动与固件结构
-  3. 复古计算与文档化价值
-- **来源**：[mattst88.com](https://mattst88.com/blog/2026/02/08/Reverse_Engineering_the_PROM_for_the_SGI_O2/)
-- **关键词**：`逆向工程` `SGI` `PROM` `复古计算` `固件`
+  1. Agent 可编程式申请 VM/GPU
+  2. 适合自动化实验与 CI/CD
+  3. 降低手工运维成本
+- **来源**：[cloudrouter.dev](https://cloudrouter.dev/)
+- **关键词**：`Agent` `VM` `GPU` `自动化` `开发效率`
 - **评分**：⭐⭐⭐⭐ (4/5)
 
 ---
 
-*Generated by Daily News Report (Cursor serial mode)*  
-*Sources: Hacker News, HuggingFace Papers, One Useful Thing, Paul Graham*
+## 13. NarraScore: Bridging Visual Narrative and Musical Dynamics via Hierarchical Affective Control
+
+- **摘要**：用冻结 VLM 作为情感传感器，将长视频叙事压缩为 Valence-Arousal 轨迹；Dual-Branch Injection 兼顾全局风格与局部张力，实现长视频配乐与叙事对齐的 SOTA，计算开销小。
+- **要点**：
+  1. VLM 作为情感传感器驱动配乐
+  2. 全局锚点 + 局部 token 级调制
+  3. 长视频配乐与叙事一致性领先
+- **来源**：[huggingface.co/papers](https://huggingface.co/papers)
+- **关键词**：`视频配乐` `VLM` `叙事对齐` `情感建模`
+- **评分**：⭐⭐⭐⭐ (4/5)
+
+---
+
+## 14. An AI Agent Published a Hit Piece on Me – More Things Have Happened
+
+- **摘要**：作者遭遇 AI 自动生成负面文章的经历续篇，讨论 AI 生成内容对个人声誉与媒体可信度的影响，以及问责与治理需求。
+- **要点**：
+  1. AI 生成内容对个人与声誉的冲击
+  2. 媒体与平台的责任与审核
+  3. 对 AI 伦理与治理的启示
+- **来源**：[theshamblog.com](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-2/)
+- **关键词**：`AI生成内容` `声誉` `媒体` `伦理`
+- **评分**：⭐⭐⭐⭐ (4/5)
+
+---
+
+## 15. The EU moves to kill infinite scrolling
+
+- **摘要**：欧盟推进限制无限滚动等成瘾式设计，要求 TikTok、Meta 等平台调整产品形态，以降低注意力剥削与成瘾风险。
+- **要点**：
+  1. 监管针对无限滚动等交互模式
+  2. 影响主流社交与短视频产品
+  3. 产品设计与合规的新约束
+- **来源**：[politico.eu](https://www.politico.eu/article/tiktok-meta-facebook-instagram-brussels-kill-infinite-scrolling/)
+- **关键词**：`欧盟` `无限滚动` `产品设计` `监管`
+- **评分**：⭐⭐⭐⭐ (4/5)
+
+---
+
+## 16. Adventures in Neural Rendering
+
+- **摘要**：神经渲染实践笔记：从体渲染、NeRF 到现代方法，记录实现与调参中的经验与坑，适合做图形/3D 与 NeRF 的开发者。
+- **要点**：
+  1. 神经渲染从原理到实现
+  2. 实践中的技巧与常见问题
+  3. 与经典渲染的对比
+- **来源**：[interplayoflight.wordpress.com](https://interplayoflight.wordpress.com/2026/02/10/adventures-in-neural-rendering/)
+- **关键词**：`神经渲染` `NeRF` `图形` `3D`
+- **评分**：⭐⭐⭐⭐ (4/5)
+
+---
+
+## 17. Backblaze Drive Stats for 2025
+
+- **摘要**：Backblaze 发布 2025 年硬盘可靠性统计，基于海量商用硬盘数据，为选型与容量规划提供参考。
+- **要点**：
+  1. 大规模真实环境故障率数据
+  2. 按型号与品牌的可靠性对比
+  3. 存储与运维决策的实用参考
+- **来源**：[backblaze.com](https://www.backblaze.com/blog/backblaze-drive-stats-for-2025/)
+- **关键词**：`硬盘` `可靠性` `Backblaze` `存储`
+- **评分**：⭐⭐⭐⭐ (4/5)
+
+---
+
+## 18. Understanding the Go Compiler: The Linker
+
+- **摘要**：深入 Go 编译器系列之链接器：符号解析、重定位与可执行文件生成，帮助理解 Go 构建与二进制结构。
+- **要点**：
+  1. 链接阶段在 Go 工具链中的角色
+  2. 符号与重定位机制
+  3. 适合编译器与底层开发者
+- **来源**：[internals-for-interns.com](https://internals-for-interns.com/posts/the-go-linker/)
+- **关键词**：`Go` `编译器` `链接器` `工具链`
+- **评分**：⭐⭐⭐⭐ (4/5)
+
+---
+
+## 19. NPMX – a fast, modern browser for the NPM registry
+
+- **摘要**：面向 NPM 注册表的快速、现代浏览工具，改善包发现与依赖查看体验，提升前端与 Node 开发效率。
+- **要点**：
+  1. 专注 NPM 的浏览与检索
+  2. 性能与体验优化
+  3. 便于依赖审计与选型
+- **来源**：[npmx.dev](https://npmx.dev/)
+- **关键词**：`NPM` `前端` `工具` `开发效率`
+- **评分**：⭐⭐⭐⭐ (4/5)
+
+---
+
+## 20. Do Not Outsource Judgement
+
+- **摘要**：探讨在依赖数据、算法与专家意见时，为何不应外包判断力：保留个人与组织的批判性思考与最终决策权的重要性。
+- **要点**：
+  1. 数据与算法不能替代判断
+  2. 批判性思维与决策责任
+  3. 适用于管理与个人决策
+- **来源**：[dncrews.com](https://dncrews.com/do-not-outsource-judgement-76f9e5be61b9)
+- **关键词**：`决策` `判断力` `批判性思维` `管理`
+- **评分**：⭐⭐⭐⭐ (4/5)
+
+---
+
+*Generated by Daily News Report v3.0*
+*Sources: Hacker News, HuggingFace Papers, James Clear 3-2-1, Farnam Street Brain Food*

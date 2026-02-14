@@ -3,11 +3,11 @@
   "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
 
   "last_run": {
-    "date": "2026-01-21",
+    "date": "2026-02-09",
     "duration_seconds": 180,
     "items_collected": 20,
     "items_published": 20,
-    "sources_used": ["hn", "hf_papers", "james_clear", "fs_blog", "scotthyoung"]
+    "sources_used": ["hn", "hf_papers", "james_clear", "fs_blog"]
   },
 
   "source_stats": {
@@ -36,6 +36,7 @@
 
   "article_history": {
     "_comment": "已收录文章的简要记录",
-    "2026-01-21": []
+    "2026-01-21": [],
+    "2026-02-09": []
   }
 }
